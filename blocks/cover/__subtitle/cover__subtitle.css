@@ -8,6 +8,13 @@
     max-width: 360px;
 }
 
+@media screen and (max-width: 720px) {
+    .cover__subtitle {
+        width: 75vw;
+        font-size: 3vw;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .cover__subtitle {
         width: 265px;
